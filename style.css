@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.top {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.right {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+.main {
+    text-align: center;
+    margin-top: 120px;
+}
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: -4px;
+}
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+.search-box {
+    width: 550px;
+    max-width: 75%;
+    padding: 15px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+.buttons {
+    margin-top: 30px;
+}
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    gap: 25px;
+}
+.footer-right {
+    margin-left: auto;
+    display: flex;
+    gap: 25px;
+}
